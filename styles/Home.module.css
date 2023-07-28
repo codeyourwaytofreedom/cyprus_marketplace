@@ -1,0 +1,31 @@
+.topbanner {
+  background-image: linear-gradient(45deg, #8c0000 25%, #d60000 50%, #8c0000 75%);
+  height: 70px;
+  display: flex;
+  align-items: center;
+  padding: 0 40px;
+  position: relative;
+}
+.topbanner_motto {
+  font-size: x-large;
+  color: whitesmoke;
+}
+.topbanner_right {
+  display: flex;
+  position: absolute;
+  right: 40px;
+  color: #ffd700 !important;
+  font-size: large;
+}
+.topbanner_right a {
+  display: flex;
+  -moz-column-gap: 5px;
+       column-gap: 5px;
+  align-items: flex-end;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.topbanner_right a:hover {
+  color: #46AFF1;
+  box-shadow: 0px 0px 4px 2px #46AFF1;
+}/*# sourceMappingURL=Home.module.css.map */
