@@ -1,6 +1,7 @@
 import styles from "../styles/Home.module.css";
 import Link from "next/link";
 import Image from "next/image";
+
 const TopBanner = () => {
     return ( <>
         <div className={styles.topbanner}>
@@ -8,7 +9,7 @@ const TopBanner = () => {
                 MarketPlace - Cyprus
             </div>
             <div className={styles.topbanner_right}>
-                <Link href={"/signin"}>
+                <Link href={"/login"}>
                     <Image src={"/loginn.png"} alt={"login"} width={30} height={30}/>
                     <span>Log in</span>
                 </Link>

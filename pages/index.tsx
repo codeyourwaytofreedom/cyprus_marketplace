@@ -1,4 +1,6 @@
 import Head from 'next/head'
+import Ads from '../components/Ads'
+import Categories from '../components/Categories'
 import TopBanner from '../components/TopBanner'
 import Wrapper from '../components/Wrapper'
 
@@ -8,6 +10,7 @@ export default function Home() {
     <>
       <Wrapper pageTitle={'Marketplace - Cyprus'}>
           <TopBanner/>
+          <Categories/>
       </Wrapper>
     </>
   )

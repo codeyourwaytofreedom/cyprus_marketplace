@@ -8,14 +8,13 @@
 }
 .topbanner_motto {
   font-size: x-large;
-  color: whitesmoke;
+  color: var(--smokey);
 }
 .topbanner_right {
   display: flex;
   position: absolute;
   right: 40px;
-  color: #ffd700 !important;
-  font-size: large;
+  color: var(--smokey) !important;
 }
 .topbanner_right a {
   display: flex;
@@ -28,4 +27,34 @@
 .topbanner_right a:hover {
   color: #46AFF1;
   box-shadow: 0px 0px 4px 2px #46AFF1;
+}
+
+.categories {
+  width: 300px;
+  padding: 20px 40px;
+}
+.categories_each {
+  padding-bottom: 10px;
+  border-bottom: 1px solid silver;
+  color: navy;
+}
+.categories_each a:hover {
+  text-decoration: underline;
+}
+.categories_each_main {
+  display: flex;
+  align-items: flex-end;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+  font-size: large;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+.categories_each_subs {
+  display: grid;
+  row-gap: 5px;
+}
+.categories_each #sub {
+  padding-left: 40px;
+  color: var(--main_blue);
 }/*# sourceMappingURL=Home.module.css.map */
