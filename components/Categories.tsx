@@ -10,6 +10,28 @@ const Categories = () => {
                 alt={"real estate"} 
                 main_title={"Real Estate"} 
                 subs={["Residence", "Workplace", "Land","Housing Projects","Building","Timeshare","Touristic facility"]}/>
+
+            <Category_and_subs 
+                image_link={"/vehicles.png"} 
+                alt={"vehicles"} 
+                main_title={"Vehicles"} 
+                subs={["Automobile", "Off-road, SUV & Pickup", "Motorcycle","Minivan & Panel Van","Commercial Vehicles",
+                    "Electric Vehicles","Rental Vehicles","Marine Vehicles","Damaged Vehicles"]}/>
+
+            <Category_and_subs 
+                image_link={"/spareparts.png"} 
+                alt={"spare parts"} 
+                main_title={"Spare Parts, Accessories, Hardware & Tuning"} 
+                subs={["Automotive Equipment", "Motorcycle Equipment", "Marine Equipment"]}/>
+
+            <Category_and_subs 
+                image_link={"/cart.png"} 
+                alt={"second hand"} 
+                main_title={"Second Hand and New Shopping"} 
+                subs={["Computer", "Mobile Phone", "Photo & Camera","Home Decoration","Home Electronics",
+                    "Electrical Appliances","Clothing & Accessories","Watches","Mother & Baby","Personal Care & Cosmetics",
+                    "Hobby & Toys","Gaming & Console","Book, Magazine & Movie","Music","Sports","Jewelry, Jewelery & Gold",
+                    "Collection","Antique","Garden & DIY Market","Technical Electronics"]}/>
         </div>
     </> );
 }
