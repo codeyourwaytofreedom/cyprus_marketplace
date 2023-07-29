@@ -65,19 +65,21 @@
 
 .display{
     padding-top: 20px;
+    width: 76%;
+    min-width: calc(130*5px + 8%);
     &_ads{
         border-top: 1px solid silver;
         margin-top: 5px;
         padding-top: 20px;
         display: grid;
         grid-template-columns: repeat(5, 1fr);
-        gap: 20px;
+        gap: 2%;
         &_each{
             box-shadow: 0px 0px 2px 1px silver;
             border-top-left-radius: 10px;
             border-bottom-right-radius: 10px;
-            width: 150px;
-            aspect-ratio: 1/1;
+            min-width: 130px;
+            //aspect-ratio: 1/1;
             padding: 10px;
             img{
                 width: 100%;
@@ -97,14 +99,16 @@
 }
 
 .ads{
-    padding: 40px 10px;
-    width: 100%;
+    //border: 2px solid red;
+    padding: 40px 2%;
     display: grid;
     align-items: flex-start;
     justify-content: center;
     row-gap: 10px;
+    width: 20%;
     iframe{
         width: 100%;
+        //max-width: 150px;
         aspect-ratio: 2/3;
         background-color: var(--smokey);
     }
