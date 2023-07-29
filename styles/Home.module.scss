@@ -66,17 +66,17 @@
 .display{
     padding-top: 20px;
     width: 76%;
-    min-width: calc(130*5px + 8%);
     &_ads{
         border-top: 1px solid silver;
         margin-top: 5px;
         display: grid;
         grid-template-columns: repeat(5, 1fr);
+        padding-top: 10px;
         &_each{
             box-shadow: 0px 0px 2px 1px silver;
             border-top-left-radius: 10px;
             border-bottom-right-radius: 10px;
-            min-width: 130px;
+            min-width: 110px;
             padding: 10px;
             img{
                 width: 100%;
