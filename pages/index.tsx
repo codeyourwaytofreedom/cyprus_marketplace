@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <>
       <Wrapper pageTitle={'Marketplace - Cyprus'}>
-      <div style={{display:"flex", alignItems:"flex-start"}}>
+        <div style={{display:"flex"}}>
           <Categories/>
           <Home_Page_Display/>
           <Ads/>

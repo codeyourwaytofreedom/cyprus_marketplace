@@ -13,11 +13,13 @@ const Home_Page_Display = () => {
             <div className={styles.display_ads}>
                 {
                     [...Array(40)].map((e,i)=>
-                    <div className={styles.display_ads_each} key={i}>
-                        <Link href={"/login"}>
-                            <Image src={`/${getRandomNumber(1,9)}.jpeg`} width={90} height={90} alt={"img"}/>
-                            <div className={styles.display_ads_each_text}>Ad Details</div>
-                        </Link>
+                    <div style={{padding:"5px"}}>
+                        <div className={styles.display_ads_each} key={i}>
+                            <Link href={"/login"}>
+                                <Image src={`/${getRandomNumber(1,9)}.jpeg`} width={90} height={90} alt={"img"}/>
+                                <div className={styles.display_ads_each_text}>Ad Details</div>
+                            </Link>
+                        </div>
                     </div>
                     )
                 }

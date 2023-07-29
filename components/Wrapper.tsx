@@ -1,6 +1,7 @@
 import { NextPage } from 'next';
 import Head from 'next/head';
 import { ReactNode } from 'react';
+import Bottom_banner from './Bottom_banner';
 import TopBanner from './TopBanner';
 
 type wrapper_props = {
@@ -21,7 +22,9 @@ const Wrapper:NextPage<wrapper_props> = ({pageTitle, children}) => {
             <TopBanner/>
             {children}
         </main>
-    
+        <footer>
+            <Bottom_banner/>
+        </footer>
     </> );
 }
  

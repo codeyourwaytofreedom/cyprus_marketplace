@@ -69,10 +69,8 @@
 .display_ads {
   border-top: 1px solid silver;
   margin-top: 5px;
-  padding-top: 20px;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  gap: 2%;
 }
 .display_ads_each {
   box-shadow: 0px 0px 2px 1px silver;
@@ -96,15 +94,33 @@
 }
 
 .ads {
-  padding: 40px 2%;
-  display: grid;
-  align-items: flex-start;
-  justify-content: center;
-  row-gap: 10px;
-  width: 20%;
+  padding: 40px 10px;
+  width: 15%;
 }
 .ads iframe {
   width: 100%;
   aspect-ratio: 2/3;
   background-color: var(--smokey);
+}
+
+.bottombanner {
+  background-color: var(--smokey);
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
+}
+.bottombanner_shell {
+  display: grid;
+  grid-template-columns: repeat(5, 200px);
+}
+.bottombanner_shell_each h4 {
+  margin-bottom: 10px;
+}
+.bottombanner_shell_each_link {
+  padding: 5px 0;
+  color: gray;
+  font-size: 14px;
+}
+.bottombanner_shell_each_link a:hover {
+  text-decoration: underline;
 }/*# sourceMappingURL=Home.module.css.map */

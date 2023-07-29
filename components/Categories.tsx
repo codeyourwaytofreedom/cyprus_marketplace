@@ -28,10 +28,26 @@ const Categories = () => {
                 image_link={"/cart.png"} 
                 alt={"secondhand_and_newshopping"} 
                 main_title={"Second Hand and New Shopping"} 
-                subs={["Computer", "Mobile Phone", "Photo & Camera","Home Decoration","Home Electronics",
-                    "Electrical Appliances","Clothing & Accessories","Watches","Mother & Baby","Personal Care & Cosmetics",
-                    "Hobby & Toys","Gaming & Console","Book, Magazine & Movie","Music","Sports","Jewelry, Jewelery & Gold",
-                    "Collection","Antique","Garden & DIY Market","Technical Electronics"]}/>
+                subs={["Computers","Cell Phones","Cameras & Photographic Equipment",
+                "Home Decor","Home Electronics","Electrical Appliances",
+                "Clothing & Accessories","Watches & Clocks","Mother & Baby",
+                "Beauty & Healthcare","Toys & Hobbies","Games & Consoles",
+                "Books, Magazines & Movies","Music","Sports", "Jewelry", 
+                "Collectibles", "Antique", "Garden & Home Improvement",
+                "Electronics","Office & Stationery","Foods & Feed","Everything Else"]}/>
+
+            <Category_and_subs 
+                image_link={"/infrastructure.png"} 
+                alt={"industrial_heavy_equipment"}
+                main_title={"Industrial & Heavy Equipment"} 
+                subs={["Agricultural Machines","Engineering Vehicle","Industrial","Electricity & Energy"]}/>
+
+            <Category_and_subs 
+                image_link={"/services.png"} 
+                alt={"services"}
+                main_title={"Services"} 
+                subs={["Interior Repairs and Decoration","Logistics & Transportation","Car Service and Maintenance",
+                "Repairs & Maintenance","Wedding & Event Planning"]}/>
         </div>
     </> );
 }
