@@ -7,7 +7,7 @@ const Categories = () => {
         <div className={styles.categories}>
             <Category_and_subs 
                 image_link={"/realestate.png"} 
-                alt={"real estate"} 
+                alt={"realestate"} 
                 main_title={"Real Estate"} 
                 subs={["Residence", "Workplace", "Land","Housing Projects","Building","Timeshare","Touristic facility"]}/>
 
@@ -20,13 +20,13 @@ const Categories = () => {
 
             <Category_and_subs 
                 image_link={"/spareparts.png"} 
-                alt={"spare parts"} 
+                alt={"spare_parts_accessories"} 
                 main_title={"Spare Parts, Accessories, Hardware & Tuning"} 
                 subs={["Automotive Equipment", "Motorcycle Equipment", "Marine Equipment"]}/>
 
             <Category_and_subs 
                 image_link={"/cart.png"} 
-                alt={"second hand"} 
+                alt={"secondhand_and_newshopping"} 
                 main_title={"Second Hand and New Shopping"} 
                 subs={["Computer", "Mobile Phone", "Photo & Camera","Home Decoration","Home Electronics",
                     "Electrical Appliances","Clothing & Accessories","Watches","Mother & Baby","Personal Care & Cosmetics",

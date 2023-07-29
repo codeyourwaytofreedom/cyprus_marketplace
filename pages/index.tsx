@@ -9,7 +9,6 @@ export default function Home() {
   return (
     <>
       <Wrapper pageTitle={'Marketplace - Cyprus'}>
-          <TopBanner/>
           <Categories/>
       </Wrapper>
     </>

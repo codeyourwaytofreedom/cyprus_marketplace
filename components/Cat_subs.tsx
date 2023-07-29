@@ -14,13 +14,13 @@ const Category_and_subs:NextPage<category_props> = ({image_link,alt,main_title,s
     return ( <>
         <div className={styles.categories_each}>
             <div className={styles.categories_each_main}>
-                <Image src={image_link} alt={alt} width={30} height={30}/>
-                <Link href={"/login"}>{main_title}</Link>
+                <Image src={image_link} alt={alt} width={25} height={25}/>
+                <Link href={`/category/${alt}`}>{main_title}</Link>
             </div>
             <div className={styles.categories_each_subs} >
                 {
                     subs.map((s,i) =>
-                    <Link key={i} href={"/login"} id={styles.sub}>{s}</Link>
+                    <Link key={i} href={`/category/${alt}/${s.toLowerCase()}`} id={styles.sub}>{s}</Link>
                     )
                 }
             </div>

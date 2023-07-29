@@ -38,13 +38,15 @@
   border-bottom: 1px solid silver;
   color: navy;
   margin-bottom: 10px;
+  display: grid;
+  row-gap: 5px;
 }
 .categories_each a:hover {
   text-decoration: underline;
 }
 .categories_each_main {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   -moz-column-gap: 10px;
        column-gap: 10px;
   font-weight: bold;

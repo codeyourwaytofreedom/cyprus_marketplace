@@ -38,6 +38,8 @@
         border-bottom: 1px solid silver;
         color: navy;
         margin-bottom: 10px;
+        display: grid;
+        row-gap: 5px;
         a{
             &:hover{
                 text-decoration: underline;
@@ -45,7 +47,7 @@
         }
         &_main{
             display: flex;
-            align-items: flex-start;
+            align-items: center;
             column-gap: 10px;
             font-weight: bold;
         }

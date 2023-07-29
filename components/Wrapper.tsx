@@ -1,6 +1,7 @@
 import { NextPage } from 'next';
 import Head from 'next/head';
 import { ReactNode } from 'react';
+import TopBanner from './TopBanner';
 
 type wrapper_props = {
     pageTitle: string;
@@ -17,6 +18,7 @@ const Wrapper:NextPage<wrapper_props> = ({pageTitle, children}) => {
             <link rel="icon" href="/shopping.png" />
         </Head>
         <main>
+            <TopBanner/>
             {children}
         </main>
     
