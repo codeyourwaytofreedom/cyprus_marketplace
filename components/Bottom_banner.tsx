@@ -36,7 +36,7 @@ const Bottom_banner = () => {
                         <h4>{c.title}</h4>
                         {
                             c.links.map((l,ii)=>
-                            <div className={styles.bottombanner_shell_each_link}><Link href={"/login"}>{l.name}</Link></div>
+                            <div className={styles.bottombanner_shell_each_link} key={ii}><Link href={"/login"}>{l.name}</Link></div>
                             )
                         }
                     </div>
