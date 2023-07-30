@@ -93,11 +93,35 @@
             }
         }
     }
+    &_360{
+        &_each{
+            &_title{
+                border-bottom: 1px solid silver;
+                padding-bottom: 5px;
+                padding-top: 20px;
+                color: navy;
+                font-weight: bold;
+            }
+            &_items{
+                display: flex;
+                column-gap: 10px;
+                padding: 10px 0;
+                align-items: center;
+                &_double{
+                    display: flex;
+                    column-gap: 5px;
+                    font-size: 14px;
+                    align-items: center;
+                    img{opacity: 0.7;}
+                }
+            }
+        }
+    }
 }
 
 .ads{
     padding: 40px 10px;
-    width: 15%;
+    width: 17%;
     iframe{
         width: 100%;
         aspect-ratio: 2/3;

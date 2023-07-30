@@ -1,6 +1,8 @@
 import styles from "../styles/Home.module.css";
 import Image from "next/image";
 import Link from "next/link";
+import {_360_auto} from "./databank.js";
+import Auto_Estate_360 from "./360";
 
 const getRandomNumber = (min:number, max:number) => {
     return Math.floor(Math.random() * (max - min + 1)) + min;
@@ -24,6 +26,7 @@ const Home_Page_Display = () => {
                     )
                 }
             </div>
+            <Auto_Estate_360/>
         </div>
     </> );
 }
