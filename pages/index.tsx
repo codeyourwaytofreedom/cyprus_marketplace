@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Ads from '../components/Ads'
 import Categories from '../components/Categories'
-import Home_Page_Display from '../components/Display'
+import Home_Page_Display from '../components/Home_Display'
 import TopBanner from '../components/TopBanner'
 import Wrapper from '../components/Wrapper'
 

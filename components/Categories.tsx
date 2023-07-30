@@ -9,7 +9,7 @@ const Categories = () => {
                 image_link={"/realestate.png"} 
                 alt={"realestate"} 
                 main_title={"Real Estate"} 
-                subs={["Residence", "Workplace", "Land","Housing Projects","Building","Timeshare","Touristic facility"]}/>
+                subs={["Residential", "Commercial", "Land","Housing Projects","Building","Timeshares","Tourism facilities"]}/>
 
             <Category_and_subs 
                 image_link={"/vehicles.png"} 

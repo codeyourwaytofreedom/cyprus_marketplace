@@ -65,7 +65,6 @@
 
 .display{
     padding-top: 20px;
-    width: 76%;
     &_ads{
         border-top: 1px solid silver;
         margin-top: 5px;
@@ -151,3 +150,19 @@
 
     }
 }
+
+
+
+
+/* Custom Display */
+
+#estate_double{
+    display: flex;
+}
+
+#estate_display{
+    padding: 0 5%;
+    position: relative;
+    top: -30px;
+}
+

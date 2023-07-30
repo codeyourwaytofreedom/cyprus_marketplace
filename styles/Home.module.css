@@ -63,7 +63,6 @@
 
 .display {
   padding-top: 20px;
-  width: 76%;
 }
 .display_ads {
   border-top: 1px solid silver;
@@ -147,4 +146,15 @@
 }
 .bottombanner_shell_each_link a:hover {
   text-decoration: underline;
+}
+
+/* Custom Display */
+#estate_double {
+  display: flex;
+}
+
+#estate_display {
+  padding: 0 5%;
+  position: relative;
+  top: -30px;
 }/*# sourceMappingURL=Home.module.css.map */

@@ -6,7 +6,7 @@ const TopBanner = () => {
     return ( <>
         <div className={styles.topbanner}>
             <div className={styles.topbanner_motto}>
-                MarketPlace - Cyprus
+               <Link href={"/"}>MarketPlace - Cyprus</Link> 
             </div>
             <div className={styles.topbanner_right}>
                 <Link href={"/login"}>
